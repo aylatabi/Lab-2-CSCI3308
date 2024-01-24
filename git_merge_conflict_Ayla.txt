@@ -1,0 +1,41 @@
+ git checkout Ayla
+Switched to branch 'Ayla'
+Your branch is up to date with 'origin/Ayla'.
+
+ayla@DESKTOP-TN2VHFT MINGW64 ~/Lab-2-CSCI3308 (Ayla)
+$ git merge main
+Auto-merging main.cpp
+CONFLICT (content): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+
+ayla@DESKTOP-TN2VHFT MINGW64 ~/Lab-2-CSCI3308 (Ayla|MERGING)
+$ git add .
+
+ayla@DESKTOP-TN2VHFT MINGW64 ~/Lab-2-CSCI3308 (Ayla|MERGING)
+$ git status
+On branch Ayla
+Your branch is up to date with 'origin/Ayla'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   main.cpp
+
+
+ayla@DESKTOP-TN2VHFT MINGW64 ~/Lab-2-CSCI3308 (Ayla|MERGING)
+$ git commit -m 
+error: switch `m' requires a value
+
+ayla@DESKTOP-TN2VHFT MINGW64 ~/Lab-2-CSCI3308 (Ayla|MERGING)
+$ git commit -m "Merging changes with return value 2"
+[Ayla 387db8a] Merging changes with return value 2
+
+ayla@DESKTOP-TN2VHFT MINGW64 ~/Lab-2-CSCI3308 (Ayla)
+$ git push
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 232 bytes | 116.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aylatabi/Lab-2-CSCI3308.git
+   62efa5b..387db8a  Ayla -> Ayla
