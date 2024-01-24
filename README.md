@@ -20,3 +20,5 @@ git add submission
 git commit -m "added submission files"
 git push
 ```
+Ayla Tabi - aylatabi 
+Gregory Del Bene - SpurSlicer
