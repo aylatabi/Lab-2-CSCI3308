@@ -1,0 +1,12 @@
+CONFLICT (content): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\grego\Desktop\Programming\Web\Lab-2-CSCI3308> git add main.cpp
+PS C:\Users\grego\Desktop\Programming\Web\Lab-2-CSCI3308> git commit -m"Merging changes with the return value 2"
+[Gregor 9230dda] Merging changes with the return value 2
+PS C:\Users\grego\Desktop\Programming\Web\Lab-2-CSCI3308> git push
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 234 bytes | 234.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aylatabi/Lab-2-CSCI3308.git
+   562242a..9230dda  Gregor -> Gregor
